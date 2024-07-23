@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the build process
+bin/
+build/
+
+# Temporary files
+*.log
+*.tmp
+
+# Configuration files
+.env
+air.toml
+
+# Vendor directory (when using `go mod vendor`)
+vendor/
+
+# Dependency directories (comment the ones you want to track)
+node_modules/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Go-specific files
+*.out
+*.test
+
+# Air specific files
+/tmp/
+
+# Coverage files
+coverage.out
+
+# make file
+Makefile
